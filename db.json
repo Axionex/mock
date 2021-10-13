@@ -1,8 +1,26 @@
 {
-	"posts": [
+	"boards": [
 		{
 			"id": 1,
-			"title": "hello"
+			"title": "hello",
+			"content": "some content"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"body": "some comment",
+			"boardId": 1
+		},
+		{
+			"id": 2,
+			"body": "some comment",
+			"boardId": 1
+		},
+		{
+			"id": 3,
+			"body": "some comment",
+			"boardId": 2
 		}
 	],
 	"profile": {
